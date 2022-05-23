@@ -1,0 +1,34 @@
+
+
+https://www.elastic.co/guide/cn/elasticsearch/guide/current/_search_lite.html
+
+这里的样例
+
+===
+
+上传数据
+
+
+写操作：
+    增 删 改
+
+    单条写、批量写、部分更新/全部更新
+
+    GET主键id查询：
+        单条
+        批量
+
+查询：
+    排序
+        字段排序
+        score排序
+    统计
+        聚合
+            avg
+            max
+            min
+            sum
+            方差
+            协方差
+            group by
+

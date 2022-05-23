@@ -11,3 +11,5 @@ TODO: elasticsearch 部署架构
 
 * https://github.com/self-tuts/awesome-docker-compose/blob/master/ecosystem/elasticsearch-kibana-docker-compose.yml
 * https://github.com/maxyermayank/docker-compose-elasticsearch-kibana
+* https://alysivji.github.io/elasticsearch-kibana-with-docker-compose.html
+* https://medium.com/analytics-vidhya/setup-elasticsearch-kibana-via-docker-ce21cf6f5312
