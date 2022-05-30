@@ -854,7 +854,59 @@
 }
 ```
 
-TODO: https://www.elastic.co/guide/cn/elasticsearch/guide/current/data-in-data-out.html
+##### 索引文档
+
+```shell
+# URL /索引/类型/id
+> curl -X PUT "localhost:9200/website/blog/123?pretty" -H 'Content-Type: application/json' -d'
+    {
+      "title": "My first blog entry",
+      "text":  "Just trying this out...",
+      "date":  "2014/01/01"
+    }
+    '
+   
+{
+  "_index" : "website",
+  "_type" : "blog",
+  "_id" : "123",
+  "_version" : 1,
+  "result" : "created",
+  "_shards" : {
+    "total" : 2,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "_seq_no" : 0,
+  "_primary_term" : 1
+}
+
+
+> curl -X POST "localhost:9200/website/blog/?pretty" -H 'Content-Type: application/json' -d'
+    {
+      "title": "My second blog entry",
+      "text":  "Still trying this out...",
+      "date":  "2014/01/01"
+    }
+    '
+
+{
+  "_index" : "website",
+  "_type" : "blog",
+  "_id" : "coq-FIEB5kSN43GM0RmJ",
+  "_version" : 1,
+  "result" : "created",
+  "_shards" : {
+    "total" : 2,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "_seq_no" : 0,
+  "_primary_term" : 1
+}
+```
+
+TODO: https://www.elastic.co/guide/cn/elasticsearch/guide/current/get-doc.html
     到这里
 
 ##### 
