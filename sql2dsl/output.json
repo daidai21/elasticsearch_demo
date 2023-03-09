@@ -1,0 +1,32 @@
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "is_topic": {
+                            "query": ""
+                        }
+                    }
+                },
+                {
+                    "match_phrase": {
+                        "search_term_text": {
+                            "query": "term"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "from": 0,
+    "size": 0,
+    "aggregations": {
+        "template_id": {
+            "terms": {
+                "field": "template_id",
+                "size": 200
+            }
+        }
+    }
+}

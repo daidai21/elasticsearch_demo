@@ -1,0 +1,24 @@
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "is_topic": {
+                            "query": "1"
+                        }
+                    }
+                },
+                {
+                    "match_phrase": {
+                        "template_id": {
+                            "query": "2"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "from": 0,
+    "size": 1
+}

@@ -1,0 +1,24 @@
+{
+    "_source": {
+        "includes": [
+            "template_id"
+        ]
+    },
+    "size": 1000,
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "term": {
+                        "is_topic": "1"
+                    }
+                },
+                {
+                    "term": {
+                        "template_id": "2"
+                    }
+                }
+            ]
+        }
+    }
+}
