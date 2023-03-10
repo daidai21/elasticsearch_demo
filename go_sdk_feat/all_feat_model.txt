@@ -1,0 +1,8 @@
+func NewEWMAMovAvgModel() *EWMAMovAvgModel {
+func NewHoltLinearMovAvgModel() *HoltLinearMovAvgModel {
+func NewHoltWintersMovAvgModel() *HoltWintersMovAvgModel {
+func NewLinearMovAvgModel() *LinearMovAvgModel {
+func NewSimpleMovAvgModel() *SimpleMovAvgModel {
+func NewStupidBackoffSmoothingModel(discount float64) *StupidBackoffSmoothingModel {
+func NewLaplaceSmoothingModel(alpha float64) *LaplaceSmoothingModel {
+func NewLinearInterpolationSmoothingModel(trigramLamda, bigramLambda, unigramLambda float64) *LinearInterpolationSmoothingModel {

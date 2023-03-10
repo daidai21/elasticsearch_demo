@@ -1,0 +1,5 @@
+func NewScoreSort() *ScoreSort {
+func NewFieldSort(fieldName string) *FieldSort {
+func NewGeoDistanceSort(fieldName string) *GeoDistanceSort {
+func NewScriptSort(script *Script, typ string) *ScriptSort {
+func NewNestedSort(path string) *NestedSort {

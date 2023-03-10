@@ -1,0 +1,6 @@
+func NewClient(options ...ClientOptionFunc) (*Client, error) {
+func NewSimpleClient(options ...ClientOptionFunc) (*Client, error) {
+func NewV4SigningClient(creds *credentials.Credentials, region string) *http.Client {
+func NewV4SigningClientWithHTTPClient(creds *credentials.Credentials, region string, httpClient *http.Client) *http.Client {
+func NewV4SigningClient(credentials awsauth.Credentials) *http.Client {
+func NewV4SigningClientWithHTTPClient(credentials awsauth.Credentials, httpClient *http.Client) *http.Client {

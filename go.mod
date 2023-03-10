@@ -11,3 +11,4 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2 // indirect
 )
+

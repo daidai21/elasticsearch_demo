@@ -1,0 +1,7 @@
+func NewExponentialDecayFunction() *ExponentialDecayFunction {
+func NewGaussDecayFunction() *GaussDecayFunction {
+func NewLinearDecayFunction() *LinearDecayFunction {
+func NewScriptFunction(script *Script) *ScriptFunction {
+func NewFieldValueFactorFunction() *FieldValueFactorFunction {
+func NewWeightFactorFunction(weight float64) *WeightFactorFunction {
+func NewRandomFunction() *RandomFunction {

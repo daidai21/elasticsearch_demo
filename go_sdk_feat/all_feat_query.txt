@@ -1,0 +1,47 @@
+func NewMatchQuery(name string, text interface{}) *MatchQuery {
+func NewWildcardQuery(name, wildcard string) *WildcardQuery {
+func NewExistsQuery(name string) *ExistsQuery {
+func NewMatchNoneQuery() *MatchNoneQuery {
+func NewPrefixQuery(name string, prefix string) *PrefixQuery {
+func NewMatchPhraseQuery(name string, value interface{}) *MatchPhraseQuery {
+func NewSpanTermQuery(field string, value ...interface{}) *SpanTermQuery {
+func NewPercolatorQuery() *PercolatorQuery {
+func NewMatchAllQuery() *MatchAllQuery {
+func NewPinnedQuery() *PinnedQuery {
+func NewConstantScoreQuery(filter Query) *ConstantScoreQuery {
+func NewFunctionScoreQuery() *FunctionScoreQuery {
+func NewGeoPolygonQuery(name string) *GeoPolygonQuery {
+func NewIdsQuery(types ...string) *IdsQuery {
+func NewTermsSetQuery(name string, values ...interface{}) *TermsSetQuery {
+func NewSpanFirstQuery(query Query, end int) *SpanFirstQuery {
+func NewDisMaxQuery() *DisMaxQuery {
+func NewRegexpQuery(name string, regexp string) *RegexpQuery {
+func NewGeoBoundingBoxQuery(name string) *GeoBoundingBoxQuery {
+func NewQueryStringQuery(queryString string) *QueryStringQuery {
+func NewCommonTermsQuery(name string, text interface{}) *CommonTermsQuery {
+func NewParentIdQuery(typ, id string) *ParentIdQuery {
+func NewSimpleQueryStringQuery(text string) *SimpleQueryStringQuery {
+func NewBoolQuery() *BoolQuery {
+func NewSuggesterGeoQuery(name string, location *GeoPoint) *SuggesterGeoQuery {
+func NewTermQuery(name string, value interface{}) *TermQuery {
+func NewGeoDistanceQuery(name string) *GeoDistanceQuery {
+func NewDistanceFeatureQuery(field string, origin interface{}, pivot string) *DistanceFeatureQuery {
+func NewMultiMatchQuery(text interface{}, fields ...string) *MultiMatchQuery {
+func NewTypeQuery(typ string) *TypeQuery {
+func NewSpanNearQuery(clauses ...Query) *SpanNearQuery {
+func NewIntervalQuery(field string, rule IntervalQueryRule) *IntervalQuery {
+func NewRangeQuery(name string) *RangeQuery {
+func NewWrapperQuery(source string) *WrapperQuery {
+func NewScriptQuery(script *Script) *ScriptQuery {
+func NewBoostingQuery() *BoostingQuery {
+func NewMatchPhrasePrefixQuery(name string, value interface{}) *MatchPhrasePrefixQuery {
+func NewHasChildQuery(childType string, query Query) *HasChildQuery {
+func NewScriptScoreQuery(query Query, script *Script) *ScriptScoreQuery {
+func NewRawStringQuery(q string) RawStringQuery {
+func NewSliceQuery() *SliceQuery {
+func NewSuggesterCategoryQuery(name string, values ...string) *SuggesterCategoryQuery {
+func NewNestedQuery(path string, query Query) *NestedQuery {
+func NewMoreLikeThisQuery() *MoreLikeThisQuery {
+func NewHasParentQuery(parentType string, query Query) *HasParentQuery {
+func NewTermsQuery(name string, values ...interface{}) *TermsQuery {
+func NewFuzzyQuery(name string, value interface{}) *FuzzyQuery {

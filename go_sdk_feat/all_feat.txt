@@ -1,0 +1,316 @@
+func NewXPackWatcherDeleteWatchService(client *Client) *XPackWatcherDeleteWatchService {
+func NewSnapshotDeleteRepositoryService(client *Client) *SnapshotDeleteRepositoryService {
+func NewStopRetrier() *StopRetrier {
+func NewBackoffRetrier(backoff Backoff) *BackoffRetrier {
+func NewHistogramAggregation() *HistogramAggregation {
+func NewXPackSecurityChangePasswordService(client *Client) *XPackSecurityChangePasswordService {
+func NewIndexService(client *Client) *IndexService {
+func NewGeoCentroidAggregation() *GeoCentroidAggregation {
+func NewSearchShardsService(client *Client) *SearchShardsService {
+func NewIndicesFlushService(client *Client) *IndicesFlushService {
+func NewSearchSource() *SearchSource {
+func NewMatchQuery(name string, text interface{}) *MatchQuery {
+func NewWildcardQuery(name, wildcard string) *WildcardQuery {
+func NewExistsQuery(name string) *ExistsQuery {
+func NewAliasesService(client *Client) *AliasesService {
+func NewXPackIlmPutLifecycleService(client *Client) *XPackIlmPutLifecycleService {
+func NewMatchNoneQuery() *MatchNoneQuery {
+func NewIndicesExistsTemplateService(client *Client) *IndicesExistsTemplateService {
+func NewExtendedStatsAggregation() *ExtendedStatsAggregation {
+func NewMinAggregation() *MinAggregation {
+func NewPrefixQuery(name string, prefix string) *PrefixQuery {
+func NewPercentileRanksAggregation() *PercentileRanksAggregation {
+func NewDiversifiedSamplerAggregation() *DiversifiedSamplerAggregation {
+func NewXPackIlmDeleteLifecycleService(client *Client) *XPackIlmDeleteLifecycleService {
+func NewXPackSecurityGetRoleMappingService(client *Client) *XPackSecurityGetRoleMappingService {
+func NewRescore() *Rescore {
+func NewReverseNestedAggregation() *ReverseNestedAggregation {
+func NewIPRangeAggregation() *IPRangeAggregation {
+func NewIndicesFreezeService(client *Client) *IndicesFreezeService {
+func NewIndicesStatsService(client *Client) *IndicesStatsService {
+func NewGetFieldMappingService(client *Client) *IndicesGetFieldMappingService {
+func NewIndicesGetFieldMappingService(client *Client) *IndicesGetFieldMappingService {
+func NewPercentilesBucketAggregation() *PercentilesBucketAggregation {
+func NewMedianAbsoluteDeviationAggregation() *MedianAbsoluteDeviationAggregation {
+func NewIngestPutPipelineService(client *Client) *IngestPutPipelineService {
+func NewTransport(opts ...Option) *Transport {
+func NewTransport(opts ...Option) *Transport {
+func NewSnapshotVerifyRepositoryService(client *Client) *SnapshotVerifyRepositoryService {
+func NewTestCase(index string, nodes []string) (*TestCase, error) {
+func NewIndicesDeleteTemplateService(client *Client) *IndicesDeleteTemplateService {
+func NewExponentialDecayFunction() *ExponentialDecayFunction {
+func NewGaussDecayFunction() *GaussDecayFunction {
+func NewLinearDecayFunction() *LinearDecayFunction {
+func NewScriptFunction(script *Script) *ScriptFunction {
+func NewFieldValueFactorFunction() *FieldValueFactorFunction {
+func NewWeightFactorFunction(weight float64) *WeightFactorFunction {
+func NewRandomFunction() *RandomFunction {
+func NewBucketScriptAggregation() *BucketScriptAggregation {
+func NewBucketSortAggregation() *BucketSortAggregation {
+func NewGeoHashGridAggregation() *GeoHashGridAggregation {
+func NewGlobalAggregation() *GlobalAggregation {
+func NewMatchPhraseQuery(name string, value interface{}) *MatchPhraseQuery {
+func NewTasksCancelService(client *Client) *TasksCancelService {
+func NewXPackWatcherAckWatchService(client *Client) *XPackWatcherAckWatchService {
+func NewXPackSecurityDeleteUserService(client *Client) *XPackSecurityDeleteUserService {
+func NewIndicesUnfreezeService(client *Client) *IndicesUnfreezeService {
+func NewMissingAggregation() *MissingAggregation {
+func NewRefreshService(client *Client) *RefreshService {
+func NewUpdateService(client *Client) *UpdateService {
+func NewCatAllocationService(client *Client) *CatAllocationService {
+func NewIndicesClearCacheService(client *Client) *IndicesClearCacheService {
+func NewExistsService(client *Client) *ExistsService {
+func NewSpanTermQuery(field string, value ...interface{}) *SpanTermQuery {
+func NewCatShardsService(client *Client) *CatShardsService {
+func NewDeleteService(client *Client) *DeleteService {
+func NewIndicesSegmentsService(client *Client) *IndicesSegmentsService {
+func NewBulkUpdateRequest() *BulkUpdateRequest {
+func NewInnerHit() *InnerHit {
+func NewClusterHealthService(client *Client) *ClusterHealthService {
+func NewQueryRescorer(query Query) *QueryRescorer {
+func NewPercolatorQuery() *PercolatorQuery {
+func NewConstantBackoff(interval time.Duration) *ConstantBackoff {
+func NewExponentialBackoff(initialTimeout, maxTimeout time.Duration) *ExponentialBackoff {
+func NewSimpleBackoff(ticks ...int) *SimpleBackoff {
+func NewChildrenAggregation() *ChildrenAggregation {
+func NewGetMappingService(client *Client) *IndicesGetMappingService {
+func NewIndicesGetMappingService(client *Client) *IndicesGetMappingService {
+func NewTermsLookup() *TermsLookup {
+func NewIntervalQueryFilter() *IntervalQueryFilter {
+func NewIndicesGetIndexTemplateService(client *Client) *IndicesGetIndexTemplateService {
+func NewXPackWatcherActivateWatchService(client *Client) *XPackWatcherActivateWatchService {
+func NewIntervalQueryRulePrefix(prefix string) *IntervalQueryRulePrefix {
+func NewMatchAllQuery() *MatchAllQuery {
+func NewMatrixStatsAggregation() *MatrixStatsAggregation {
+func NewXPackSecurityDeleteRoleService(client *Client) *XPackSecurityDeleteRoleService {
+func NewSumAggregation() *SumAggregation {
+func NewPinnedQuery() *PinnedQuery {
+func NewConstantScoreQuery(filter Query) *ConstantScoreQuery {
+func NewXPackIlmGetLifecycleService(client *Client) *XPackIlmGetLifecycleService {
+func NewRequest(method, url string) (*Request, error) {
+func NewXPackInfoService(client *Client) *XPackInfoService {
+func NewFunctionScoreQuery() *FunctionScoreQuery {
+func NewDeleteScriptService(client *Client) *DeleteScriptService {
+func NewXPackWatcherStopService(client *Client) *XPackWatcherStopService {
+func NewAliasAddAction(alias string) *AliasAddAction {
+func NewAliasRemoveAction(alias string) *AliasRemoveAction {
+func NewAliasRemoveIndexAction(index string) *AliasRemoveIndexAction {
+func NewAliasService(client *Client) *AliasService {
+func NewIntervalQueryRuleAllOf(intervals ...IntervalQueryRule) *IntervalQueryRuleAllOf {
+func NewCatAliasesService(client *Client) *CatAliasesService {
+func NewCollapseBuilder(field string) *CollapseBuilder {
+func NewSnapshotCreateService(client *Client) *SnapshotCreateService {
+func NewIndicesAnalyzeService(client *Client) *IndicesAnalyzeService {
+func NewXPackWatcherStartService(client *Client) *XPackWatcherStartService {
+func NewGeoPolygonQuery(name string) *GeoPolygonQuery {
+func NewAvgAggregation() *AvgAggregation {
+func NewSnapshotDeleteService(client *Client) *SnapshotDeleteService {
+func NewClient(options ...ClientOptionFunc) (*Client, error) {
+func NewClientFromConfig(cfg *config.Config) (*Client, error) {
+func NewSimpleClient(options ...ClientOptionFunc) (*Client, error) {
+func NewCatIndicesService(client *Client) *CatIndicesService {
+func NewSuggestField(input ...string) *SuggestField {
+func NewIdsQuery(types ...string) *IdsQuery {
+func NewIngestGetPipelineService(client *Client) *IngestGetPipelineService {
+func NewMaxBucketAggregation() *MaxBucketAggregation {
+func NewFieldCapsService(client *Client) *FieldCapsService {
+func NewPercentilesAggregation() *PercentilesAggregation {
+func NewGetScriptService(client *Client) *GetScriptService {
+func NewIndicesRolloverService(client *Client) *IndicesRolloverService {
+func NewScrollService(client *Client) *ScrollService {
+func NewScoreSort() *ScoreSort {
+func NewFieldSort(fieldName string) *FieldSort {
+func NewGeoDistanceSort(fieldName string) *GeoDistanceSort {
+func NewScriptSort(script *Script, typ string) *ScriptSort {
+func NewNestedSort(path string) *NestedSort {
+func NewTermsSetQuery(name string, values ...interface{}) *TermsSetQuery {
+func NewSignificantTextAggregation() *SignificantTextAggregation {
+func NewBulkService(client *Client) *BulkService {
+func NewMultiTermvectorService(client *Client) *MultiTermvectorService {
+func NewMultiTermvectorItem() *MultiTermvectorItem {
+func NewBulkDeleteRequest() *BulkDeleteRequest {
+func NewSnapshotCreateRepositoryService(client *Client) *SnapshotCreateRepositoryService {
+func NewSpanFirstQuery(query Query, end int) *SpanFirstQuery {
+func NewDisMaxQuery() *DisMaxQuery {
+func NewMultiSearchService(client *Client) *MultiSearchService {
+func NewIntervalQueryRuleMatch(query string) *IntervalQueryRuleMatch {
+func NewSearchService(client *Client) *SearchService {
+func NewPutScriptService(client *Client) *PutScriptService {
+func NewXPackSecurityGetRoleService(client *Client) *XPackSecurityGetRoleService {
+func NewDateRangeAggregation() *DateRangeAggregation {
+func NewRegexpQuery(name string, regexp string) *RegexpQuery {
+func NewValueCountAggregation() *ValueCountAggregation {
+func NewTopHitsAggregation() *TopHitsAggregation {
+func NewCardinalityAggregation() *CardinalityAggregation {
+func NewIntervalQueryRuleAnyOf(intervals ...IntervalQueryRule) *IntervalQueryRuleAnyOf {
+func NewMinBucketAggregation() *MinBucketAggregation {
+func NewGeoBoundingBoxQuery(name string) *GeoBoundingBoxQuery {
+func NewMaxAggregation() *MaxAggregation {
+func NewXPackSecurityDeleteRoleMappingService(client *Client) *XPackSecurityDeleteRoleMappingService {
+func NewClusterRerouteService(client *Client) *ClusterRerouteService {
+func NewMoveAllocationCommand(index string, shardId int, fromNode, toNode string) *MoveAllocationCommand {
+func NewCancelAllocationCommand(index string, shardId int, node string, allowPrimary bool) *CancelAllocationCommand {
+func NewAllocateStalePrimaryAllocationCommand(index string, shardId int, node string, acceptDataLoss bool) *AllocateStalePrimaryAllocationCommand {
+func NewAllocateReplicaAllocationCommand(index string, shardId int, node string) *AllocateReplicaAllocationCommand {
+func NewAllocateEmptyPrimaryAllocationCommand(index string, shardId int, node string, acceptDataLoss bool) *AllocateEmptyPrimaryAllocationCommand {
+func NewQueryStringQuery(queryString string) *QueryStringQuery {
+func NewCommonTermsQuery(name string, text interface{}) *CommonTermsQuery {
+func NewMgetService(client *Client) *MgetService {
+func NewMultiGetItem() *MultiGetItem {
+func NewIndicesForcemergeService(client *Client) *IndicesForcemergeService {
+func NewPutMappingService(client *Client) *IndicesPutMappingService {
+func NewIndicesPutMappingService(client *Client) *IndicesPutMappingService {
+func NewMovFnAggregation(bucketsPath string, script *Script, window int) *MovFnAggregation {
+func NewParentIdQuery(typ, id string) *ParentIdQuery {
+func NewClusterStatsService(client *Client) *ClusterStatsService {
+func NewSimpleQueryStringQuery(text string) *SimpleQueryStringQuery {
+func NewBoolQuery() *BoolQuery {
+func NewBulkProcessorService(client *Client) *BulkProcessorService {
+func NewIndicesExistsService(client *Client) *IndicesExistsService {
+func NewCompletionSuggester(name string) *CompletionSuggester {
+func NewFuzzyCompletionSuggesterOptions() *FuzzyCompletionSuggesterOptions {
+func NewRegexCompletionSuggesterOptions() *RegexCompletionSuggesterOptions {
+func NewSnapshotStatusService(client *Client) *SnapshotStatusService {
+func NewFetchSourceContext(fetchSource bool) *FetchSourceContext {
+func NewIndicesDeleteService(client *Client) *IndicesDeleteService {
+func NewXPackSecurityPutUserService(client *Client) *XPackSecurityPutUserService {
+func NewRangeAggregation() *RangeAggregation {
+func NewScriptedMetricAggregation() *ScriptedMetricAggregation {
+func NewSuggesterGeoMapping(name string) *SuggesterGeoMapping {
+func NewSuggesterGeoQuery(name string, location *GeoPoint) *SuggesterGeoQuery {
+func NewSuggesterGeoIndex(name string) *SuggesterGeoIndex {
+func NewCatHealthService(client *Client) *CatHealthService {
+func NewTermQuery(name string, value interface{}) *TermQuery {
+func NewXPackWatcherPutWatchService(client *Client) *XPackWatcherPutWatchService {
+func NewIndicesGetTemplateService(client *Client) *IndicesGetTemplateService {
+func NewAdjacencyMatrixAggregation() *AdjacencyMatrixAggregation {
+func NewIndicesGetSettingsService(client *Client) *IndicesGetSettingsService {
+func NewIndicesCloseService(client *Client) *IndicesCloseService {
+func NewGeoDistanceQuery(name string) *GeoDistanceQuery {
+func NewDistanceFeatureQuery(field string, origin interface{}, pivot string) *DistanceFeatureQuery {
+func NewExtendedStatsBucketAggregation() *ExtendedStatsBucketAggregation {
+func NewWeightedAvgAggregation() *WeightedAvgAggregation {
+func NewMultiMatchQuery(text interface{}, fields ...string) *MultiMatchQuery {
+func NewTermSuggester(name string) *TermSuggester {
+func NewSignificantTermsAggregation() *SignificantTermsAggregation {
+func NewChiSquareSignificanceHeuristic() *ChiSquareSignificanceHeuristic {
+func NewGNDSignificanceHeuristic() *GNDSignificanceHeuristic {
+func NewJLHScoreSignificanceHeuristic() *JLHScoreSignificanceHeuristic {
+func NewMutualInformationSignificanceHeuristic() *MutualInformationSignificanceHeuristic {
+func NewPercentageScoreSignificanceHeuristic() *PercentageScoreSignificanceHeuristic {
+func NewScriptSignificanceHeuristic() *ScriptSignificanceHeuristic {
+func NewTypeQuery(typ string) *TypeQuery {
+func NewAutoDateHistogramAggregation() *AutoDateHistogramAggregation {
+func NewSpanNearQuery(clauses ...Query) *SpanNearQuery {
+func NewFilterAggregation() *FilterAggregation {
+func NewXPackAsyncSearchGet(client *Client) *XPackAsyncSearchGet {
+func NewIndicesCreateService(client *Client) *IndicesCreateService {
+func NewIntervalQuery(field string, rule IntervalQueryRule) *IntervalQuery {
+func NewXPackSecurityDisableUserService(client *Client) *XPackSecurityDisableUserService {
+func NewSnapshotRestoreService(client *Client) *SnapshotRestoreService {
+func NewIndicesShrinkService(client *Client) *IndicesShrinkService {
+func NewXPackWatcherStatsService(client *Client) *XPackWatcherStatsService {
+func NewSumBucketAggregation() *SumBucketAggregation {
+func NewNodesInfoService(client *Client) *NodesInfoService {
+func NewTermvectorsService(client *Client) *TermvectorsService {
+func NewTermvectorsFilterSettings() *TermvectorsFilterSettings {
+func NewValidateService(client *Client) *ValidateService {
+func NewAvgBucketAggregation() *AvgBucketAggregation {
+func NewUpdateByQueryService(client *Client) *UpdateByQueryService {
+func NewRangeQuery(name string) *RangeQuery {
+func NewIndicesOpenService(client *Client) *IndicesOpenService {
+func NewGeoDistanceAggregation() *GeoDistanceAggregation {
+func NewIndicesGetService(client *Client) *IndicesGetService {
+func NewWrapperQuery(source string) *WrapperQuery {
+func NewBulkIndexRequest() *BulkIndexRequest {
+func NewDeleteByQueryService(client *Client) *DeleteByQueryService {
+func NewV4SigningClient(creds *credentials.Credentials, region string) *http.Client {
+func NewV4SigningClientWithHTTPClient(creds *credentials.Credentials, region string, httpClient *http.Client) *http.Client {
+func NewV4SigningClient(credentials awsauth.Credentials) *http.Client {
+func NewV4SigningClientWithHTTPClient(credentials awsauth.Credentials, httpClient *http.Client) *http.Client {
+func NewScriptQuery(script *Script) *ScriptQuery {
+func NewSnapshotGetService(client *Client) *SnapshotGetService {
+func NewBoostingQuery() *BoostingQuery {
+func NewTasksListService(client *Client) *TasksListService {
+func NewBucketSelectorAggregation() *BucketSelectorAggregation {
+func NewMatchPhrasePrefixQuery(name string, value interface{}) *MatchPhrasePrefixQuery {
+func NewMovAvgAggregation() *MovAvgAggregation {
+func NewEWMAMovAvgModel() *EWMAMovAvgModel {
+func NewHoltLinearMovAvgModel() *HoltLinearMovAvgModel {
+func NewHoltWintersMovAvgModel() *HoltWintersMovAvgModel {
+func NewLinearMovAvgModel() *LinearMovAvgModel {
+func NewSimpleMovAvgModel() *SimpleMovAvgModel {
+func NewCountService(client *Client) *CountService {
+func NewHasChildQuery(childType string, query Query) *HasChildQuery {
+func NewPingService(client *Client) *PingService {
+func NewTermsAggregation() *TermsAggregation {
+func NewClusterStateService(client *Client) *ClusterStateService {
+func NewSnapshotGetRepositoryService(client *Client) *SnapshotGetRepositoryService {
+func NewClearScrollService(client *Client) *ClearScrollService {
+func NewGetService(client *Client) *GetService {
+func NewScriptScoreQuery(query Query, script *Script) *ScriptScoreQuery {
+func NewCumulativeSumAggregation() *CumulativeSumAggregation {
+func NewXPackWatcherExecuteWatchService(client *Client) *XPackWatcherExecuteWatchService {
+func NewRawStringQuery(q string) RawStringQuery {
+func NewFiltersAggregation() *FiltersAggregation {
+func NewSliceQuery() *SliceQuery {
+func NewCatCountService(client *Client) *CatCountService {
+func NewExplainService(client *Client) *ExplainService {
+func NewIngestDeletePipelineService(client *Client) *IngestDeletePipelineService {
+func NewDerivativeAggregation() *DerivativeAggregation {
+func NewReindexService(client *Client) *ReindexService {
+func NewReindexSource() *ReindexSource {
+func NewReindexRemoteInfo() *ReindexRemoteInfo {
+func NewReindexDestination() *ReindexDestination {
+func NewGeoBoundsAggregation() *GeoBoundsAggregation {
+func NewIndicesPutIndexTemplateService(client *Client) *IndicesPutIndexTemplateService {
+func NewRareTermsAggregation() *RareTermsAggregation {
+func NewXPackSecurityGetUserService(client *Client) *XPackSecurityGetUserService {
+func NewTasksGetTaskService(client *Client) *TasksGetTaskService {
+func NewXPackSecurityPutRoleMappingService(client *Client) *XPackSecurityPutRoleMappingService {
+func NewSuggesterCategoryMapping(name string) *SuggesterCategoryMapping {
+func NewSuggesterCategoryQuery(name string, values ...string) *SuggesterCategoryQuery {
+func NewSuggesterCategoryIndex(name string, values ...string) *SuggesterCategoryIndex {
+func NewNestedQuery(path string, query Query) *NestedQuery {
+func NewIngestSimulatePipelineService(client *Client) *IngestSimulatePipelineService {
+func NewMoreLikeThisQuery() *MoreLikeThisQuery {
+func NewMoreLikeThisQueryItem() *MoreLikeThisQueryItem {
+func NewXPackSecurityEnableUserService(client *Client) *XPackSecurityEnableUserService {
+func NewXPackAsyncSearchDelete(client *Client) *XPackAsyncSearchDelete {
+func NewHasParentQuery(parentType string, query Query) *HasParentQuery {
+func NewScript(script string) *Script {
+func NewScriptInline(script string) *Script {
+func NewScriptStored(script string) *Script {
+func NewScriptField(fieldName string, script *Script) *ScriptField {
+func NewContextSuggester(name string) *ContextSuggester {
+func NewIndicesPutTemplateService(client *Client) *IndicesPutTemplateService {
+func NewIndicesPutSettingsService(client *Client) *IndicesPutSettingsService {
+func NewIndicesDeleteIndexTemplateService(client *Client) *IndicesDeleteIndexTemplateService {
+func NewTermsQuery(name string, values ...interface{}) *TermsQuery {
+func NewTermsQueryFromStrings(name string, values ...string) *TermsQuery {
+func NewNestedAggregation() *NestedAggregation {
+func NewSamplerAggregation() *SamplerAggregation {
+func NewDateHistogramAggregation() *DateHistogramAggregation {
+func NewIndicesSyncedFlushService(client *Client) *IndicesSyncedFlushService {
+func NewStatsAggregation() *StatsAggregation {
+func NewSearchRequest() *SearchRequest {
+func NewXPackWatcherGetWatchService(client *Client) *XPackWatcherGetWatchService {
+func NewSerialDiffAggregation() *SerialDiffAggregation {
+func NewHighlight() *Highlight {
+func NewHighlighterField(name string) *HighlighterField {
+func NewIntervalQueryRuleWildcard(pattern string) *IntervalQueryRuleWildcard {
+func NewXPackAsyncSearchSubmit(client *Client) *XPackAsyncSearchSubmit {
+func NewFuzzyQuery(name string, value interface{}) *FuzzyQuery {
+func NewXPackWatcherDeactivateWatchService(client *Client) *XPackWatcherDeactivateWatchService {
+func NewStatsBucketAggregation() *StatsBucketAggregation {
+func NewNodesStatsService(client *Client) *NodesStatsService {
+func NewCompositeAggregation() *CompositeAggregation {
+func NewCompositeAggregationTermsValuesSource(name string) *CompositeAggregationTermsValuesSource {
+func NewCompositeAggregationHistogramValuesSource(name string, interval float64) *CompositeAggregationHistogramValuesSource {
+func NewCompositeAggregationDateHistogramValuesSource(name string) *CompositeAggregationDateHistogramValuesSource {
+func NewXPackSecurityPutRoleService(client *Client) *XPackSecurityPutRoleService {
+func NewPhraseSuggester(name string) *PhraseSuggester {
+func NewStupidBackoffSmoothingModel(discount float64) *StupidBackoffSmoothingModel {
+func NewLaplaceSmoothingModel(alpha float64) *LaplaceSmoothingModel {
+func NewLinearInterpolationSmoothingModel(trigramLamda, bigramLambda, unigramLambda float64) *LinearInterpolationSmoothingModel {
+func NewDirectCandidateGenerator(field string) *DirectCandidateGenerator {
