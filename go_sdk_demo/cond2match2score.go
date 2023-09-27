@@ -40,6 +40,14 @@ func main() {
 		Size(10).
 		Do(context.Background())
 
-	fmt.Println(do)
+	// 错误
 	fmt.Println(e)
+	e.Error()
+
+	// 数据
+	fmt.Println(do)
+	_ = do.Hits.TotalHits      // 总数
+	_ = do.Hits.Hits           // 返回的多行数据信息
+	_ = do.Hits.Hits[0].Id     // doc id
+	_ = do.Hits.Hits[0].Source // 真正的源数据，需要自己json解析到struct
 }
